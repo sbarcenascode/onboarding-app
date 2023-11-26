@@ -1,0 +1,11 @@
+// tsconfig.spec.json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "isolatedModules": false
+  },
+  "include": [
+    "./test-setup.tsx"
+  ]
+}
